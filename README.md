@@ -1,4 +1,4 @@
-# [Hugo's Homepage](http://hugochan.net)
+# [Zhuang Wang's Homepage](http://hugochan.net)
 
 ## Acknowledgement
 This website is currently used as my personal homepage and is based on [Freelancer](http://startbootstrap.com/template-overviews/freelancer/) which is a one page Bootstrap portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). Give my best thanks to the creator.
