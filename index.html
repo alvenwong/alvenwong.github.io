@@ -319,14 +319,14 @@
                     <ul>
                         <li><b>μBPF, a performance diagnosis framework in microservices architecture</b> <a href = "https://github.com/alvenwong/kernel_trace"> [GitHub]</a> <br>
                             μBPF leverages eBPF to capture TCP metrics from the kernel for performance diagnosis in microservices architectures. 
-                            It probes two levels of statistics: flows and packets. 
+                            It probes two levels of statistics: flows and packets. <br>
                             The flow-level statistics currently have sixteen metrics, such as flight size, CWnd, sampled RTT, number of fast retransmission and timeout. 
                             The packets-level statistics are the breakdown of the end-to-end delay, including latencies in TCP layer, IP layer and kernel space.
                         </li><br>
                         <li><b>Haiyun, a labeled network system</b> <a href = "https://github.com/alvenwong/DaBao"> [GitHub]</a> <br>
-                            Haiyun enable NICs to distinguish packets with different service-level agreements (SLAs). 
-                            With the support of DPDK and mTCP, Haiyun could keep packets with different SLAs in different queues from NICs to applications to reduce the long tail delay in data centers. <br>
-                            My work consists of two components. 
+                            Haiyun enables NICs to distinguish packets with different service-level agreements (SLAs). 
+                            With the support of DPDK and mTCP, Haiyun could significantly reduce the long tail delay in data centers by keeping packets with different SLAs in different queues from NICs to applications. <br>
+                            My work consists of two components. <br>
                             One is a flow generator, which could generate more than 1 million concurrent TCP connections with just one physical server. 
                             The other is a third-party tool to measure the performance of Haiyun. 
                             To measure the delay resulted from packets processing in servers, we use switches’ mirror function to monitor packets and measure their delays on a specific server. 
